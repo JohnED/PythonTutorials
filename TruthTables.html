@@ -1,0 +1,236 @@
+<Head>
+<style>
+/* line numbers  */
+td.linenos > div {
+  font-family: 'roboto';
+  pointer-events: none;
+  margin-left: 1em;
+  padding-right: 0.5em;
+  border-right: 1px solid #999;
+}
+/* line numbers font styling */
+td.linenos > div {
+  font-family: 'roboto';
+  color: #999;
+  margin-left: 1em;
+}
+/* more styling for code  */
+.highlighttable tbody,
+#main > table > tbody { }
+.highlighttable .code,
+.highlight pre {
+  font-family: roboto;
+  background-color: #fcfaf0;
+  margin-left: 0.4em;
+  text-shadow: 0 1px white;
+  margin-right: 1.4em;
+}
+.highlighttable .code {
+  font-family: 'roboto';
+  box-shadow: inset 2px 4px 5px 0px 
+  rgba(115,112,96,0.1);
+}
+table {  
+  font-family: 'roboto';
+  border: 1px solid 
+  hsla(41, 9%, 43%, 0.2) }
+thead,
+td {  padding: 0 0.3em 0.3em }
+tr:nth-child(even) {  background-color: #dbd5c5 }
+th {
+  padding: 0 0.3em;
+  background-color: #f5f3e9;
+  color: #5e4e23;
+  text-transform: uppercase;
+  border-bottom: 3px solid #b5a98a;
+}
+td.linenos {  vertical-align: top }
+.linenodiv {  font-size: 12pt }
+div.highlight {
+  width: 760px;
+  font-size: 12pt;
+}
+div.highlight pre {
+    background-color: #fcfaf0;
+    overflow: auto;
+    white-space: pre;
+    width: 750px;
+}
+
+</style>
+</head>
+<table border="1" class="docutils">
+<colgroup>
+<col width="64%" />
+<col width="36%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">NOT</th>
+<th class="head">True?</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>not False</td>
+<td>True</td>
+</tr>
+<tr><td>not True</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table border="1" class="docutils">
+<colgroup>
+<col width="74%" />
+<col width="26%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">OR</th>
+<th class="head">True?</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>True or False</td>
+<td>True</td>
+</tr>
+<tr><td>True or True</td>
+<td>True</td>
+</tr>
+<tr><td>False or True</td>
+<td>True</td>
+</tr>
+<tr><td>False or False</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table border="1" class="docutils">
+<colgroup>
+<col width="75%" />
+<col width="25%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">AND</th>
+<th class="head">True?</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>True and False</td>
+<td>False</td>
+</tr>
+<tr><td>True and True</td>
+<td>True</td>
+</tr>
+<tr><td>False and True</td>
+<td>False</td>
+</tr>
+<tr><td>False and False</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table border="1" class="docutils">
+<colgroup>
+<col width="80%" />
+<col width="20%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">NOT OR</th>
+<th class="head">True?</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>not (True or False)</td>
+<td>False</td>
+</tr>
+<tr><td>not (True or True)</td>
+<td>False</td>
+</tr>
+<tr><td>not (False or True)</td>
+<td>False</td>
+</tr>
+<tr><td>not (False or False)</td>
+<td>True</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table border="1" class="docutils">
+<colgroup>
+<col width="81%" />
+<col width="19%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">NOT AND</th>
+<th class="head">True?</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>not (True and False)</td>
+<td>True</td>
+</tr>
+<tr><td>not (True and True)</td>
+<td>False</td>
+</tr>
+<tr><td>not (False and True)</td>
+<td>True</td>
+</tr>
+<tr><td>not (False and False)</td>
+<td>True</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table border="1" class="docutils">
+<colgroup>
+<col width="75%" />
+<col width="25%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">!=</th>
+<th class="head">True?</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>1 != 0</td>
+<td>True</td>
+</tr>
+<tr><td>1 != 1</td>
+<td>False</td>
+</tr>
+<tr><td>0 != 1</td>
+<td>True</td>
+</tr>
+<tr><td>0 != 0</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table border="1" class="docutils">
+<colgroup>
+<col width="75%" />
+<col width="25%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">==</th>
+<th class="head">True?</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>1 == 0</td>
+<td>False</td>
+</tr>
+<tr><td>1 == 1</td>
+<td>True</td>
+</tr>
+<tr><td>0 == 1</td>
+<td>False</td>
+</tr>
+<tr><td>0 == 0</td>
+<td>True</td>
+</tr>
+</tbody>
+</table>

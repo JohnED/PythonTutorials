@@ -1,0 +1,46 @@
+D+G Update
+
+1. Upgrade
+
+2. Alan Schedule
+
+- Alan's Time biggest pinch point
+- To send to Bruno and Daniel
+
+3. Estimates
+
+- High Level Estimates
+- Request for breakdown
+	[DEV-103 Estimate Doc]
+- Change Requests, How to manage these from Bruno, DYC?
+	
+4. Invoice Breakdown
+
+- By Development
+	DEV-103
+	DEV-106
+
+	* Estimating - For when no Dev Number
+	* Testing - as a separate code, will include work required for release drop including building release bundle, creating/updating and updating Selenium script
+	* Project Management - All PM tasks and time to charge stand ups against
+	* General Support - What would this include?
+	* Alan's time
+	* Any others?
+	
+- By High Level Task
+	DEV-106 Development
+	DEV-106 Testing
+	DEV-106 UAT
+	
+- By Specific Task
+	DEV-106 Testing - Testing Plan 
+	DEV-106 Testing - Regression Testing
+	DEV-106 Testing - Selenium Testing
+	
+	Can Further breakdown
+	DEV-106 Testing - Selenium Testing - Writing Scripts
+	DEV-106 Testing - Selenium Testing - Running Scripts
+	
+
+
+

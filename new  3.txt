@@ -1,0 +1,23 @@
+
+
+
+Roles
+
+Estimates
+	OLR Estimates
+			DEV-107 HLE 2
+			DEV-108 HLE 4+1
+			DEV-109 No work for us?
+			
+	Standard Form
+			- Development
+			- Local Test
+			- Internal Test Cases (scripts)
+			- Selenium Test Script
+			- UAT
+
+Excesses/Katie
+
+QC Defects
+
+Lucy - What work is coming from her?
